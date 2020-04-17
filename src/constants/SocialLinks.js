@@ -2,23 +2,19 @@ import React from "react"
 import {
   FaGithubSquare,
   FaTwitterSquare,
-  FaYoutubeSquare,
+  FaLinkedin,
 } from "react-icons/fa"
 
 export default [
+
   {
     id: Math.random(),
-    url: "#",
-    image: <FaYoutubeSquare className="youtube-icon" />,
-  },
-  {
-    id: Math.random(),
-    url: "#",
+    url: "https://github.com/phungdpham?tab=repositories",
     image: <FaGithubSquare className="github-icon icon" />,
   },
   {
     id: Math.random(),
-    url: "#",
-    image: <FaTwitterSquare className="twitter-icon" />,
+    url: "https://www.linkedin.com/in/phungdpham/",
+    image: <FaLinkedin className="linkedin-icon icon" />,
   },
 ]

@@ -9,11 +9,11 @@ const contact = () => {
         <Title title="contact"></Title>
         <article className={styles.text}>
           <p>
-            If you are looking to get ahold of me, you can send me an email at{" "}
-            <a href="#">phung.contact@gmail.com</a>.
+            Please send me an email at{" "}
+            <a href="mailto:phung.contact@gmail.com?Subject=Hello%20" target="_top">phung.contact@gmail.com</a>
           </p>
           <p>
-            You can also reach me on Linkedin at <a href="#">@phungdpham</a>.
+            You can also reach me on Linkedin at <a href="https://www.linkedin.com/in/phungdpham/">@phungdpham</a>.
           </p>
         </article>
       </section>

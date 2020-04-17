@@ -18,6 +18,7 @@ const Projects = () => {
               title={item.title}
               url={item.url}
               description={item.description}
+              github={item.github}
             ></Project>
           )
         })}
