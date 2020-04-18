@@ -9,9 +9,19 @@ import CrystalCollector from '../images/projects/crystal-collector.jpg'
 import PsychicGame from '../images/projects/psychic-game.jpg'
 import StopWatch from '../images/projects/stop-watch.jpg'
 import TrivialGame from '../images/projects/trivia-game.jpg'
+import Pizza from '../images/projects/pizza.jpeg'
 
 
 export default [
+  {
+    id: Math.random(),
+    category: 'React',
+    title: "Pizza Ordering",
+    url: "https://pizza-sliceline.netlify.app/",
+    img: Pizza,
+    description: "React Hook. Firebase",
+    github: "https://github.com/phungdpham/sliceline",
+  },
   {
     id: Math.random(),
     category: 'React',
