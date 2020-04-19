@@ -17,7 +17,7 @@ export default [
     id: Math.random(),
     category: 'React',
     title: "Pizza Ordering",
-    url: "https://pizza-sliceline.netlify.app/",
+    url: "https://sliceline-pizza.web.app",
     img: Pizza,
     description: "React Hook. Firebase",
     github: "https://github.com/phungdpham/sliceline",
