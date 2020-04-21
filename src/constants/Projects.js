@@ -10,9 +10,19 @@ import PsychicGame from '../images/projects/psychic-game.jpg'
 import StopWatch from '../images/projects/stop-watch.jpg'
 import TrivialGame from '../images/projects/trivia-game.jpg'
 import Pizza from '../images/projects/pizza.jpeg'
+import RMDBMovie from '../images/projects/rmdb-moviesearch.png'
 
 
 export default [
+  {
+    id: Math.random(),
+    category: 'React',
+    title: "RMDB Movie Search",
+    url: "https://movie-search87.netlify.app/",
+    img: RMDBMovie,
+    description: "React. React Hook",
+    github: "https://github.com/phungdpham/reach-search-movie",
+  },
   {
     id: Math.random(),
     category: 'React',
