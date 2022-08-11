@@ -13,12 +13,14 @@ import Pizza from '../images/projects/pizza.jpeg'
 import RMDBMovie from '../images/projects/rmdb-moviesearch.png'
 import Caferio from "../images/projects/caferio.png"
 import Tlisting from "../images/projects/tlisting.jpg"
-import bookmark from "../images/projects/bookmark.png"
+import bookmark from "../images/projects/bookmark.jpeg"
 import realEstate from "../images/projects/real-estate.jpg"
 import fylo from "../images/projects/fylo.png"
 import loopstudio from "../images/projects/loopstudio.jpg"
 import clipboard from "../images/projects/clipboard.png"
-
+import shortly from "../images/projects/shortly.png"
+import design from "../images/projects/design-airtable.png"
+import instagram from "../images/projects/instagram.webp"
 
 
 export default [
@@ -85,16 +87,42 @@ export default [
     description: "TailwindCSS",
     github: "https://github.com/phungdpham/tailwindcss-clipboard-website",
   },
+  {
+    id: Math.random(),
+    category: 'Frontend',
+    title: "Shortly",
+    url: "https://shortly-tailwindcss.netlify.app/",
+    img: shortly,
+    description: "Gatsby, React",
+    github: "https://github.com/phungdpham/tailwindcss-shortly",
+  },
+  {
+    id: Math.random(),
+    category: 'Frontend',
+    title: "Gatsby Design",
+    url: "https://design-airtable.netlify.app/",
+    img: design,
+    description: "Gatsby, React",
+    github: "https://github.com/phungdpham/design-airtable-gatsby",
+  },
+   {
+    id: Math.random(),
+    category: 'React',
+    title: "Instagram Grid Gallery",
+    url: "https://gridgallery-phung.netlify.app/gallery",
+    img: instagram,
+    description: "React, CSS",
+    github: "https://github.com/phungdpham/grid-gallery",
+  }, 
   // {
   //   id: Math.random(),
   //   category: 'Frontend',
   //   title: "",
   //   url: "",
   //   img: ,
-  //   description: "TailwindCSS",
+  //   description: "Gatsby, React",
   //   github: "",
   // },
-  
 
   {
     id: Math.random(),
