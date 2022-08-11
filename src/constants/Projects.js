@@ -93,7 +93,7 @@ export default [
     title: "Shortly",
     url: "https://shortly-tailwindcss.netlify.app/",
     img: shortly,
-    description: "Gatsby, React",
+    description: "TailwindCSS",
     github: "https://github.com/phungdpham/tailwindcss-shortly",
   },
   {
