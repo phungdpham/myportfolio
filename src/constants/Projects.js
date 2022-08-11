@@ -11,9 +11,91 @@ import StopWatch from '../images/projects/stop-watch.jpg'
 import TrivialGame from '../images/projects/trivia-game.jpg'
 import Pizza from '../images/projects/pizza.jpeg'
 import RMDBMovie from '../images/projects/rmdb-moviesearch.png'
+import Caferio from "../images/projects/caferio.png"
+import Tlisting from "../images/projects/tlisting.jpg"
+import bookmark from "../images/projects/bookmark.png"
+import realEstate from "../images/projects/real-estate.jpg"
+import fylo from "../images/projects/fylo.png"
+import loopstudio from "../images/projects/loopstudio.jpg"
+import clipboard from "../images/projects/clipboard.png"
+
 
 
 export default [
+  {
+    id: Math.random(),
+    category: 'Frontend',
+    title: "Caferio",
+    url: "https://caferio.netlify.app/",
+    img: Caferio,
+    description: "TailwindCSS",
+    github: "https://github.com/phungdpham/caferio",
+  },
+  {
+    id: Math.random(),
+    category: 'Frontend',
+    title: "TListing",
+    url: "https://tailisting.netlify.app/",
+    img: Tlisting,
+    description: "TailwindCSS",
+    github: "https://github.com/phungdpham/taillisting",
+  },
+  {
+    id: Math.random(),
+    category: 'Frontend',
+    title: "Bookmark",
+    url: "https://tailwindcss-bookmark-website.netlify.app/",
+    img: bookmark,
+    description: "TailwindCSS",
+    github: "https://github.com/phungdpham/tailwindcss-bookmark-website",
+  },
+  {
+    id: Math.random(),
+    category: 'Frontend',
+    title: "Real Estate",
+    url: "https://real-estate-by-tailwindcss.netlify.app/",
+    img: realEstate,
+    description: "TailwindCSS",
+    github: "https://github.com/phungdpham/tailwindcss-real-estate",
+  },
+  {
+    id: Math.random(),
+    category: 'Frontend',
+    title: "Fylo",
+    url: "https://tailwindcss-fylo-website.netlify.app/",
+    img: fylo,
+    description: "TailwindCSS",
+    github: "https://github.com/phungdpham/tailwindcss-fylo",
+  },
+  {
+    id: Math.random(),
+    category: 'Frontend',
+    title: "Loopstudio",
+    url: "https://tailwindcss-loopstudios.netlify.app/",
+    img: loopstudio,
+    description: "TailwindCSS",
+    github: "https://github.com/phungdpham/tailwind-loopstudio",
+  },
+  {
+    id: Math.random(),
+    category: 'Frontend',
+    title: "Clipboard",
+    url: "https://tailwindcss-clipboard-website.netlify.app/",
+    img: clipboard,
+    description: "TailwindCSS",
+    github: "https://github.com/phungdpham/tailwindcss-clipboard-website",
+  },
+  // {
+  //   id: Math.random(),
+  //   category: 'Frontend',
+  //   title: "",
+  //   url: "",
+  //   img: ,
+  //   description: "TailwindCSS",
+  //   github: "",
+  // },
+  
+
   {
     id: Math.random(),
     category: 'React',
