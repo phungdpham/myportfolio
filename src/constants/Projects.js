@@ -109,7 +109,7 @@ export default [
     id: Math.random(),
     category: 'React',
     title: "Instagram Grid Gallery",
-    url: "https://gridgallery-phung.netlify.app/gallery",
+    url: "https://gridgallery-phung.netlify.app",
     img: instagram,
     description: "React, CSS",
     github: "https://github.com/phungdpham/grid-gallery",
