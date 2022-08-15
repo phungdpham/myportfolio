@@ -21,6 +21,7 @@ import clipboard from "../images/projects/clipboard.png"
 import shortly from "../images/projects/shortly.png"
 import design from "../images/projects/design-airtable.png"
 import instagram from "../images/projects/instagram.webp"
+import marketingLp from "../images/projects/marketing-landingpage.png"
 
 
 export default [
@@ -96,6 +97,24 @@ export default [
     description: "TailwindCSS",
     github: "https://github.com/phungdpham/tailwindcss-shortly",
   },
+   {
+    id: Math.random(),
+    category: 'Frontend',
+    title: "Marketing Landing Page",
+    url: "https://marketing-lp.netlify.app/",
+    img: MarketingLp,
+    description: "React, Tailwind CSS",
+    github: "https://github.com/phungdpham/marketing-landing-page",
+  },
+   // {
+  //   id: Math.random(),
+  //   category: 'Frontend',
+  //   title: "Marketing Landing Page",
+  //   url: "",
+  //   img: ,
+  //   description: "Gatsby, React",
+  //   github: "",
+  // },
   {
     id: Math.random(),
     category: 'Frontend',
@@ -114,17 +133,7 @@ export default [
     description: "React, CSS",
     github: "https://github.com/phungdpham/grid-gallery",
   }, 
-  // {
-  //   id: Math.random(),
-  //   category: 'Frontend',
-  //   title: "",
-  //   url: "",
-  //   img: ,
-  //   description: "Gatsby, React",
-  //   github: "",
-  // },
-
-  {
+   {
     id: Math.random(),
     category: 'React',
     title: "RMDB Movie Search",
