@@ -55,6 +55,15 @@ export default [
   {
     id: Math.random(),
     category: 'Frontend',
+    title: "Marketing Landing Page",
+    url: "https://marketing-lp.netlify.app/",
+    img: marketingLp,
+    description: "TailwindCSS",
+    github: "https://github.com/phungdpham/marketing-landing-page",
+  },
+  {
+    id: Math.random(),
+    category: 'Frontend',
     title: "Real Estate",
     url: "https://real-estate-by-tailwindcss.netlify.app/",
     img: realEstate,
